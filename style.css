@@ -1,0 +1,423 @@
+/*  LOGIN UP PAGE  */
+
+h1{
+    color: rgb(97, 45, 45);
+    text-align: center;
+    padding-top: 20px;
+}
+
+body {
+    font-family:Verdana,sans-serif;
+    font-size:100%;
+    background-image: url(ivy.jpg);
+    color: rgb(97, 45, 45);
+}
+
+.login-container{
+    margin: auto; 
+    border-radius: 10px;
+    background-color:whitesmoke;
+    opacity: 0.7;
+    width: 360px; 
+    height: auto;
+    position: relative; 
+    margin-top: 10%;
+    padding-bottom: 15px;
+
+}
+
+form {
+    width: 300px; 
+    margin-left: 20px; 
+}
+
+#signup {
+    margin-left: 40px;
+}
+
+form input{
+    padding: 5px; 
+    width: 100%; 
+}
+
+form label {
+    display: flex;
+    font-size: larger;
+    margin-top: 13px;
+}
+
+input.button1{
+    font-size: larger;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    height: 40px;
+    width: 320px;
+    background-color: rgb(71, 177, 71);
+    color:rgb(97, 45, 45); 
+    align-content: center;
+    
+}
+
+p.log{
+    padding: 0 10px 0 10px; 
+    text-align: center;
+}
+
+/*  SIGN UP PAGE  */
+
+section { 
+    padding:10px;
+}
+
+.signup-container{
+    margin-top: 5%;
+
+}
+
+section.left {
+    margin-left: 20%;
+    position: relative; 
+    float:left;
+    width: 400px; 
+    height: 500px; 
+    border-radius: 10px;
+    background-color:whitesmoke;
+    opacity: 0.7;
+ }
+
+div.right {
+    margin-right: 20%;
+    position: relative; 
+    float:right;
+    width: 360px; 
+    height: 520px; 
+    border-radius: 10px;
+    background-color:whitesmoke;
+    opacity: 0.7;
+}
+
+h2, h3{
+    text-align: center;
+}
+
+img{
+    height: 120px;
+    width: 120px; 
+    margin: 0 0 0 0; 
+}
+
+
+
+input[type=checkbox]{
+    width: 100px; 
+}
+
+form.pic{
+    width: 500px; 
+}
+
+div.avatar-box1{
+    width: 150px; 
+    height: 150px;
+    padding: 10px;
+    float:left; 
+    margin-left: 5%;
+}
+
+div.avatar-box2{
+    width: 150px; 
+    height: 150px;
+    padding: 10px;
+    margin-right: 25%;
+    float: right; 
+}
+
+div.avatar-box3{
+    width: 150px; 
+    height: 150px;
+    padding: 10px;
+    margin-left: 5%;
+    float: left; 
+}
+
+div.avatar-box4{
+    width: 150px; 
+    height: 150px;
+    padding: 10px;
+    margin-right: 25%;
+    float: right; 
+}
+
+.button2 {
+    margin-left: 4%;
+}
+
+
+body.recipes{
+    background-image: url("woodpic.jpg");
+}
+
+header {
+    background-color:rgb(95, 172, 95);
+    color: rgb(112, 70, 70);
+    height: 80px; 
+    width: 100%; 
+    align-content: center;
+    border-radius: 10px;
+}
+
+
+div.nav-box {
+    background-color:rgb(190, 159, 119); 
+    color: white;
+    border-radius: 10px;
+    height: 50px; 
+    padding: 10px; 
+    
+}
+
+nav {
+    margin-left: 5px;
+    height: 30px;
+}
+
+
+nav ul li{
+	display:inline;
+	padding: 0 4%;
+	margin: 0;
+	border-left: 2px solid black;
+}
+
+nav ul li:first-child{
+	border-width: 0px;
+}
+
+form.search-bar {
+    width: 300px;
+    height: 30px; 
+    display: inline-flex; 
+    margin-top: 0px;
+   
+}
+
+.search-button {
+    width: 80px;
+    height: 25px; 
+    font-size: small;
+    float: right; 
+    margin-top: 0px;
+    border-radius: 10px;
+     
+}
+
+#search{
+    width: 300px; 
+    height: 25px; 
+    border-radius: 10px;
+}
+
+
+div.tile-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px; 
+    margin: 0 auto; 
+    max-width: 1200px;
+    margin-bottom: 350px;
+}
+
+div.tile{
+    background-color: whitesmoke;
+    opacity: 0.75;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 80px;
+    padding: 15px; 
+
+}
+
+img{
+    border-radius: 60px;
+}
+
+.cookName{
+    float: Left; 
+    margin-left: 25px;
+    
+}
+
+.rating{
+    color:rgb(71, 177, 71); 
+}
+
+img.star{
+    border-radius: 0px;
+    height: 15px; 
+    width: 15px; 
+    margin-top: 0px;
+}
+
+#footer{
+    background-color:rgb(95, 172, 95); 
+    color: whitesmoke; 
+    border-radius: 10px;
+    height: 50px; 
+    width: 96%; 
+    padding: 3px;
+    padding-left: 30px;
+    padding-right: 30px;
+    bottom: 0px;
+    position: relative; 
+    
+}
+
+section.info-container{
+    border-radius: 10px;
+    background-color:whitesmoke;
+    opacity: 0.7;
+    margin: 80px 200px 100px 200px; 
+    height: auto;     
+    
+}
+
+form.newRecipe{
+    padding: 20px 100px 20px 100px; 
+    font-size: 25px;
+
+}
+
+form input.info1 textarea{
+    
+    height: 50px; 
+}
+
+section.detail-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px; 
+    margin: 0 auto; 
+    padding: 30px; 
+    
+    margin: 80px 200px 100px 200px; 
+    height: 900px;    
+}
+
+.chef-info{
+    font-size: 30px;
+}
+
+img.profile{
+    width: 200px;
+    height: 200px;
+}
+
+article.description{
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: 10px;
+    background-color:whitesmoke;
+    opacity: 0.7;
+    padding: 20px;
+}
+
+img.food{
+    border-radius: 20px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;
+}
+
+.red{
+    color: red;
+}
+
+article.background{
+    border-radius: 10px;
+    background-color:rgb(206, 205, 205);
+    
+}
+
+article.same{
+    border-radius: 10px;
+    background-color:whitesmoke;
+    opacity: 0.7;
+    padding: 20px; 
+}
+
+
+form.ratingPosition{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%; 
+}
+
+p.errStyle{
+    color: red;
+    font-size: small;
+}
+
+.err{
+    color: red;
+    font-size: medium;
+}
+
+.redBox{
+    border-color: red;
+}
+
+
+section.center{
+    background-color: whitesmoke;
+    opacity: 0.7;
+    width: 400px;
+    height: auto;
+    margin-left: 37%;
+    border-radius: 10px;
+}
+
+.counterStyle{
+    font-size: small;
+    float: right;
+    padding-bottom: 15px;
+}
+
+#postRecipe{
+    width: 600px; 
+}
+
+button.btnStyle {
+    height: 30px;
+    width: 30px; 
+    align-content: center;
+    position: relative; 
+}
+
+input.rateField{
+    width: 85px; 
+    text-align: center;
+    margin-top: 10px;
+}
+
+input.btnSize{
+    width: 170px; 
+    border-radius: 10px;
+}
+
+div.move{
+    margin-left: 25%;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+.visible{
+    visibility: visible;
+}

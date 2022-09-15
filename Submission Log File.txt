@@ -1,0 +1,39 @@
+===========================+
+                           
+Name: Shahzil Siddiqui     
+SID: 200448986             
+COURSE#: CS 215-398        
+ASSIGN: A6                 
+                           
+URL: http://www2.cs.uregina.ca/~sms524/cs215/Assign6/login.php
+
+uploads - the folder where all user uploaded images reside to be used again
+avatar1.png - used for styling purposes 
+avatar2.png - used for styling purposes 
+avatar3.png - used for styling purposes 
+avatar4.png - used for styling purposes 
+ivy.jpg - used for styling 
+plate.jpg - used for styling 
+star.png - used for styling
+woodpic.jpg - used for styling 
+
+ajax-newRate.php - every 20 seconds it runs a query to update the ratings of all recipes by generating a response to the call back function 
+ajax-newRecipe.php - every 90 seconds it runs a query to check if any new recipes are posted and returns a json response back to the call back function 
+ajax-rate.php - updates the rating of a page through generating a json response to the call back function
+
+login.php - prompts the user to log in with their username and password
+logout.php - destroys the session variables that logs a user out 
+postRecipe.php - allows a user to create their own recipes by filling in the feilds 
+recipeDetail.php- shows a specific recipe with more detail and instructions (cannot rate own recipe)
+recipeList.php - displays the recipes that others have posted (the 20 most recent postings) 
+sign-up.php - promts the user to enter details to sign-up for the recipe rating website 
+
+style.css -  contains all the styling for the html pages 
+
+login-r.js - contains the event registrations/listeners functions for submission form 
+postRecipe-r.js - contains the event registrations/listeners functions for submission form  
+recipeDetail-r.js - contains the event registrations/listeners functions for submission, input, and clicking
+signup-r.js - contains the event registrations/listeners functions for submission form 
+validate.js - contains all the functions for all event listeners for all html files. 
+                           
+===========================+
